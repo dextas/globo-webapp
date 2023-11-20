@@ -38,7 +38,7 @@ variable "api_key" {
 }
 
 variable "playbook_repository" {
-  type = string
+  type        = string
   description = "(Required) URI of the Ansible playbook."
 }
 
